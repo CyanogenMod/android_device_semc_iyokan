@@ -30,6 +30,9 @@ adb pull /system/usr/keylayout/msm_pmic_pwr_key.kl ../../../vendor/$VENDOR/$DEVI
 adb pull /system/usr/keylayout/pm8058-keypad.kl ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/keylayout/qwerty.kl ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/keylayout/simple_remote.kl ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/keychars/us104-keyboard.kcm.bin ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/keylayout/us104-keyboard.kl ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/usr/keylayout/usb_mouse.kl ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 ## RIL related stuff 
 adb pull /system/lib/libril.so ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -74,6 +77,7 @@ adb pull /system/lib/liboemcamera.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libmmjpeg.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libmmipl.so ../../../vendor/$VENDOR/$DEVICE/proprietary 
 adb pull /system/lib/libcamera.so ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/lib/libcamera_clientsemc.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libcald_client.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libcald_debugger.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/lib/libcald_hal.so ../../../vendor/$VENDOR/$DEVICE/proprietary
@@ -216,6 +220,18 @@ adb pull /system/usr/keyboard-config/layouts/qwerty-se-fi.xml ../../../vendor/$V
 adb pull /system/usr/keyboard-config/layouts/qwertz.xml ../../../vendor/$VENDOR/$DEVICE/proprietary
 adb pull /system/usr/keyboard-config/layouts/thai.xml ../../../vendor/$VENDOR/$DEVICE/proprietary
 
+#HDMI
+adb pull /system/bin/hdmid ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/lib/libhdmidisplay.so ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/app/SemcHdmiControlService.apk ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/framework/com.sonyericsson.privateapis_impl.jar ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/permissions/com.sonyericsson.privateapis.xml ../../../vendor/$VENDOR/$DEVICE/proprietary
+
+#ANT*
+adb pull /system/app/AntHalService.apk ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/etc/permissions/com.dsi.ant.antradio_library.xml ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/framework/com.dsi.ant.antradio_library.jar ../../../vendor/$VENDOR/$DEVICE/proprietary
+adb pull /system/lib/libanthal.so ../../../vendor/$VENDOR/$DEVICE/proprietary
 
 ./setup-makefiles.sh
 

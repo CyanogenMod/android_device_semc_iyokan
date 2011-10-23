@@ -39,6 +39,9 @@ DEVICE=iyokan
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \\
+vendor/__VENDOR__/__DEVICE__/proprietary/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \\
+vendor/__VENDOR__/__DEVICE__/proprietary/us104-keyboard.kl:system/usr/keylayout/104-keyboard.kl \\
+vendor/__VENDOR__/__DEVICE__/proprietary/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \\
 vendor/__VENDOR__/__DEVICE__/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \\
 vendor/__VENDOR__/__DEVICE__/proprietary/qwerty.kcm.bin:system/usr/keychars/pm8058-keypad.kcm.bin \\
 vendor/__VENDOR__/__DEVICE__/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \\
@@ -86,6 +89,7 @@ PRODUCT_COPY_FILES += \\
 vendor/__VENDOR__/__DEVICE__/proprietary/liboemcamera.so:system/lib/liboemcamera.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcamera.so:system/lib/libcamera.so \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libmmipl.so:system/lib/libmmipl.so \\
 vendor/__VENDOR__/__DEVICE__/proprietary/libcald_client.so:system/lib/libcald_client.so \\
@@ -244,6 +248,20 @@ vendor/__VENDOR__/__DEVICE__/proprietary/qwerty-se-fi.xml:system/usr/keyboard-co
 vendor/__VENDOR__/__DEVICE__/proprietary/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \\
 vendor/__VENDOR__/__DEVICE__/proprietary/thai.xml:system/usr/keyboard-config/layouts/thai.xml 
 
+#HDMI
+PRODUCT_COPY_FILES += \\
+vendor/__VENDOR__/__DEVICE__/proprietary/hdmid:system/bin/hdmid \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libhdmidisplay.so:system/lib/libhdmidisplay.so \\
+vendor/__VENDOR__/__DEVICE__/proprietary/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml
+
+#ANT*
+PRODUCT_COPY_FILES += \\
+vendor/__VENDOR__/__DEVICE__/proprietary/AntHalService.apk:system/app/AntHalService.apk \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \\
+vendor/__VENDOR__/__DEVICE__/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \\
+vendor/__VENDOR__/__DEVICE__/proprietary/libanthal.so:system/lib/libanthal.so
 
 EOF
 
