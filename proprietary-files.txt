@@ -1,10 +1,12 @@
 # Prebuilt kl keymaps
 usr/keylayout/atdaemon.kl
+usr/keylayout/qwerty.kl
 usr/keylayout/AVRCP.kl
 usr/keylayout/msm_pmic_pwr_key.kl
 usr/keylayout/pm8058-keypad.kl
 usr/keylayout/simple_remote.kl
 usr/keychars/us104-keyboard.kcm.bin
+usr/keychars/qwerty.kcm.bin
 usr/keylayout/us104-keyboard.kl
 usr/keylayout/usb_mouse.kl
 
@@ -81,8 +83,7 @@ usr/semc/camera/LGI08BN0.dat
 usr/semc/camera/LGI08BN1_IMX105.dat
 
 ## FIRMWARE
-etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.bqfs
-etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.dffs
+etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
 etc/firmware/fm_rx_init_1273.1.bts
 etc/firmware/fm_rx_init_1273.2.bts
 etc/firmware/fm_tx_init_1273.1.bts
