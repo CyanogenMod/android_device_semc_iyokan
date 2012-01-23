@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_iyokan.mk 
+    $(LOCAL_DIR)/device_iyokan.mk
