@@ -7,9 +7,9 @@ $(call inherit-product-if-exists, vendor/semc/iyokan/iyokan-vendor.mk)
 
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := Xperia Pro
+PRODUCT_NAME := iyokan
 PRODUCT_DEVICE := iyokan
-PRODUCT_MODEL := MK16i
+PRODUCT_MODEL := iyokan
 
 -include device/semc/mogami-common/mogami.mk
 
