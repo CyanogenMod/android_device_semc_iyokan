@@ -43,10 +43,10 @@ bin/netmgrd
 
 ## Camera proprietaries
 etc/permissions/android.hardware.camera.front.xml
+#lib/hw/camera.semc.so
 lib/liboemcamera.so
 lib/libmmjpeg.so
-lib/libmmipl.so 
-lib/libcamera.so
+lib/libmmipl.so
 lib/libcamera_clientsemc.so
 lib/libcald_client.so
 lib/libcald_debugger.so
