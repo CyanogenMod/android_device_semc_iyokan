@@ -11,6 +11,10 @@ PRODUCT_NAME := iyokan
 PRODUCT_DEVICE := iyokan
 PRODUCT_MODEL := iyokan
 
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel
+
 -include device/semc/mogami-common/mogami.mk
 
 # These is the hardware-specific overlay, which points to the location

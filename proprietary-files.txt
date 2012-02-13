@@ -1,15 +1,12 @@
 # Prebuilt kl keymaps
 usr/idc/cyttsp-spi.idc
+usr/idc/qwerty.idc
+usr/idc/qwerty2.idc
 usr/keylayout/atdaemon.kl
-usr/keylayout/qwerty.kl
 usr/keylayout/AVRCP.kl
 usr/keylayout/msm_pmic_pwr_key.kl
 usr/keylayout/pm8058-keypad.kl
 usr/keylayout/simple_remote.kl
-usr/keychars/us104-keyboard.kcm.bin
-usr/keychars/qwerty.kcm.bin
-usr/keylayout/us104-keyboard.kl
-usr/keylayout/usb_mouse.kl
 
 ## RIL related stuff 
 bin/port-bridge
@@ -43,7 +40,7 @@ bin/netmgrd
 
 ## Camera proprietaries
 etc/permissions/android.hardware.camera.front.xml
-#lib/hw/camera.semc.so
+lib/hw/camera.semc.so
 lib/liboemcamera.so
 lib/libmmjpeg.so
 lib/libmmipl.so
