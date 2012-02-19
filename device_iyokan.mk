@@ -18,7 +18,7 @@ PRODUCT_MODEL := iyokan
 # application settings that are stored in resourced.
 DEVICE_PACKAGE_OVERLAYS += device/semc/iyokan/overlay
 
-PRODUCT_PACKAGES += KeyboardChanger
+PRODUCT_PACKAGES += ProParts
 
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES += \
