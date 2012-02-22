@@ -2,6 +2,8 @@
 usr/idc/cyttsp-spi.idc
 usr/idc/qwerty.idc
 usr/idc/qwerty2.idc
+usr/idc/pm8058-keypad.idc
+usr/keychars/pm8058-keypad.kcm
 usr/keylayout/atdaemon.kl
 usr/keylayout/AVRCP.kl
 usr/keylayout/msm_pmic_pwr_key.kl
