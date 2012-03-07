@@ -1,8 +1,6 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/iyokan/BoardConfigVendor.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/semc/iyokan/include
-
 SENSORS_COMPASS_AK897X := true
 SENSORS_ACCEL_BMA150_INPUT := true
 SENSORS_ACCEL_BMA250_INPUT := false
