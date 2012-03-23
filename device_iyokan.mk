@@ -26,7 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/iyokan/overlay
 #PRODUCT_COPY_FILES += \
 #	device/semc/iyokan/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
-PRODUCT_PACKAGES += ProParts
+PRODUCT_PACKAGES += XperiaParts
 
 # Init files
 PRODUCT_COPY_FILES += \
