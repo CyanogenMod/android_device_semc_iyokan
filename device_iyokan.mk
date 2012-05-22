@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
     device/semc/mogami-common/prebuilt/keyswap:root/sbin/keyswap \
     device/semc/mogami-common/prebuilt/init.semc.keyboard.rc:root/init.semc.keyboard.rc
 
+#device specific features
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/android.hardware.camera.front.xml
+
 # semc msm7x30 uses high-density artwork where available
 PRODUCT_LOCALES += hdpi
 
