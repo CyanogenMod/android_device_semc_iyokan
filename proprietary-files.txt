@@ -124,3 +124,13 @@ lib/egl/libGLESv2_adreno200.so
 
 #touch
 etc/firmware/touch_iyokan_ttsp.hex
+
+#ANT+
+lib/libanthal.so
+etc/permissions/com.dsi.ant.antradio_library.xml
+etc/permissions/com.sonyericsson.suquashi.xml
+app/antstatenotifer.apk
+app/AntHalService.apk
+app/antradioservice.apk
+framework/com.dsi.ant.antradio_library.jar
+framework/com.sonyericsson.suquashi.jar
