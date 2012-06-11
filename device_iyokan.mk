@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += XperiaParts
 PRODUCT_COPY_FILES += \
     device/semc/iyokan/prebuilt/init.semc.usb.rc:root/init.semc.usb.rc \
     device/semc/iyokan/prebuilt/bootrec-device:root/sbin/bootrec-device \
+    device/semc/iyokan/prebuilt/45-keypad.sh:system/addon.d/45-keypad.sh \
     device/semc/iyokan/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/iyokan/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
