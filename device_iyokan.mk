@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += device/semc/iyokan/overlay
 
 # These are the hardware-specific configuration files
-#PRODUCT_COPY_FILES += \
-#	device/semc/iyokan/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
+PRODUCT_COPY_FILES += \
+	device/semc/iyokan/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
 PRODUCT_PACKAGES += XperiaParts
 
