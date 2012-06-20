@@ -95,10 +95,11 @@ etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 
 ## WIFI & BT TI1271
+bin/nvimport
+bin/calibrator
 etc/init.qcom.bt.sh
 etc/tiwlan.ini
 etc/firmware/wl1271-fw-multirole-roc.bin
-etc/firmware/wl1271-nvs.bin
 etc/wifi/hostapd.conf
 
 ## Other libraries and proprietary binaries
