@@ -19,4 +19,4 @@ PRODUCT_BRAND := SEMC
 PRODUCT_MODEL := Xperia Pro
 
 #Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=MK16i BUILD_FINGERPRINT="SEMC/LT18i_0000-0000/LT18i:4.0.3/4.1.C.0.7/-H9_3w:user/release-keys" PRIVATE_BUILD_DESC="LT18i-user 4.0.3 4.1.C.0.7 -H9_3w test-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=MK16i BUILD_FINGERPRINT="SEMC/MK16i_1251-0386/MK16i:4.0.4/4.1.B.0.431/UL5_3w:user/release-keys ro.build.description=MK16i-user 4.0.4 4.1.B.0.431 UL5_3w test-keys"
