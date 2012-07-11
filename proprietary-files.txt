@@ -123,13 +123,6 @@ lib/libmiscta.so
 #touch
 etc/firmware/touch_iyokan_ttsp.hex
 
-#HDMI
-bin/hdmid
-lib/libhdmidisplay.so
-app/SemcHdmiControlService.apk
-framework/com.sonyericsson.privateapis_impl.jar
-etc/permissions/com.sonyericsson.privateapis.xml
-
 #ANT+
 lib/libanthal.so
 etc/permissions/com.dsi.ant.antradio_library.xml
