@@ -1,3 +1,4 @@
+-include device/semc/msm7x30-common/BoardConfigCommon.mk
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/iyokan/BoardConfigVendor.mk
 
