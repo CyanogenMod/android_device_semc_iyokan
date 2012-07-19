@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     device/semc/iyokan/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/iyokan/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_H.rle:root/logo.rle \
-    device/semc/iyokan/recovery.fstab:root/etc/recovery.fstab \
+    device/semc/iyokan/recovery.fstab:root/recovery.fstab \
     device/semc/mogami-common/prebuilt/keyswap:root/sbin/keyswap \
     device/semc/mogami-common/prebuilt/init.semc.keyboard.rc:root/init.semc.keyboard.rc
 
