@@ -105,7 +105,6 @@ etc/wifi/hostapd.conf
 
 ## Other libraries and proprietary binaries
 lib/libaudioalsa.so
-etc/vold.fstab
 etc/sensors.conf
 bin/bq275xx_fwloader
 bin/akmd8975

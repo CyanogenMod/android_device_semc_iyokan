@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo iyokan-eng
+add_lunch_combo cm_iyokan-eng
