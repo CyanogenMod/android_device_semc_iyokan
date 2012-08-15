@@ -101,7 +101,6 @@ lib/libnl.so
 etc/init.qcom.bt.sh
 etc/tiwlan.ini
 etc/firmware/wl1271-fw-multirole-roc.bin
-etc/wifi/hostapd.conf
 
 ## Other libraries and proprietary binaries
 lib/libaudioalsa.so
