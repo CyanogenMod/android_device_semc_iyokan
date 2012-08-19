@@ -28,6 +28,22 @@ PRODUCT_COPY_FILES += \
     device/semc/iyokan/prebuilt/bootrec-device:root/sbin/bootrec-device \
     device/semc/iyokan/recovery.fstab:root/recovery.fstab
 
+# Device specific configs
+PRODUCT_COPY_FILES += \
+    device/semc/iyokan/config/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
+    device/semc/iyokan/config/qwerty.idc:system/usr/idc/qwerty.idc \
+    device/semc/iyokan/config/qwerty2.idc:system/usr/idc/qwerty2.idc \
+    device/semc/iyokan/config/pm8058-keypad.idc:system/usr/idc/pm8058-keypad.idc \
+    device/semc/iyokan/config/pm8058-keypad.kcm:system/usr/keychars/pm8058-keypad.kcm \
+    device/semc/iyokan/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    device/semc/iyokan/config/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
+    device/semc/iyokan/config/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
+    device/semc/iyokan/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    device/semc/iyokan/config/als_curve.conf:system/etc/als_curve.conf \
+    device/semc/iyokan/config/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    device/semc/iyokan/config/sensors.conf:system/etc/sensors.conf \
+    device/semc/iyokan/config/tiwlan.ini:system/etc/tiwlan.ini
+
 $(call inherit-product, device/semc/msm7x30-common/prebuilt/resources-hdpi.mk)
 
 #LCD DENSITY
