@@ -21,10 +21,9 @@
 # lines, full and maguro, hence its name.
 #
 #
- 
+
 # Torch
-PRODUCT_PACKAGES := \
-    Torch \
+PRODUCT_PACKAGES += \
     XperiaParts
 
 # Inherit from those products. Most specific first.
