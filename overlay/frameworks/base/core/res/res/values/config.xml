@@ -31,4 +31,6 @@
          closed.  The default is 0. -->
     <integer name="config_lidKeyboardAccessibility">1</integer>
 
+    <!-- True if the Sym key should open the InputMethodPicker (default) -->
+    <bool name="config_symKeyShowsImePicker">false</bool>
 </resources>

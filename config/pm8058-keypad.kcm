@@ -490,7 +490,7 @@ key PLUS {
     shift+alt:                          '+'
 }
 
-key META_LEFT {
+key SYM {
     label:                              '\uef01'
     number:                             '\uef01'
     base:                               '\uef01'
