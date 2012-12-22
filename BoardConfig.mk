@@ -3,7 +3,6 @@
 
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
 TARGET_KERNEL_CONFIG := cyanogen_iyokan_defconfig
-#TARGET_PREBUILT_KERNEL := device/semc/iyokan/prebuilt/kernel
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 TARGET_RECOVERY_INITRC := device/semc/iyokan/recovery/init.rc
