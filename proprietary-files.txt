@@ -1,16 +1,20 @@
-## RIL related stuff
+# RIL related stuff
+bin/netmgrd
 bin/port-bridge
 bin/qmuxd
-lib/libril.so
 lib/libauth.so
 lib/libcm.so
 lib/libdiag.so
 lib/libdll.so
+lib/libdsi_netctrl.so
 lib/libdsm.so
 lib/libdss.so
+lib/libdsutils.so
 lib/libgsdi_exp.so
 lib/libgstk_exp.so
+lib/libidl.so
 lib/libmmgsdilib.so
+lib/libnetmgr.so
 lib/libnv.so
 lib/liboem_rapi.so
 lib/liboncrpc.so
@@ -18,17 +22,13 @@ lib/libpbmlib.so
 lib/libqmi.so
 lib/libqueue.so
 lib/libuim.so
+lib/libqdp.so
+lib/libril.so
 lib/libril-qc-1.so
 lib/libwms.so
 lib/libwmsts.so
-lib/libdsi_netctrl.so
-lib/libdsutils.so
-lib/libidl.so
-lib/libnetmgr.so
-lib/libqdp.so
-bin/netmgrd
 
-## Camera proprietaries
+# Camera proprietaries
 lib/hw/camera.semc.so
 lib/liboemcamera.so
 lib/libmmjpeg.so
@@ -62,7 +62,7 @@ usr/semc/camera/LGI08BN1_DW9714.dat
 usr/semc/camera/LGI08BN0.dat
 usr/semc/camera/LGI08BN1_IMX105.dat
 
-## FIRMWARE
+# Firmware
 etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs
 etc/firmware/fm_rx_init_1273.1.bts
 etc/firmware/fm_rx_init_1273.2.bts
@@ -82,20 +82,13 @@ etc/firmware/vidc_720p_vc1_dec_mc.fw
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 
-## WIFI & BT TI1271
+# WiFi & Bluetooth TI wl1271
 bin/nvimport
 bin/calibrator
 lib/libnl.so
 etc/firmware/wl1271-fw-multirole-roc.bin
 
-## Other libraries and proprietary binaries
-lib/libaudioalsa.so
-bin/bq275xx_fwloader
-bin/akmd8975
-bin/chargemon
-lib/libmiscta.so
-
-## Adreno 200 files
+# Adreno 200 files
 lib/libC2D2.so
 lib/libOpenVG.so
 lib/libgsl.so
@@ -108,15 +101,22 @@ lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv2_adreno200.so
 lib/egl/libGLESv2S3D_adreno200.so
 
-#touch
+# Other libraries and proprietary binaries
+bin/akmd8975
+bin/bq275xx_fwloader
+bin/chargemon
+lib/libaudioalsa.so
+lib/libmiscta.so
+
+# Touchscreen firmware
 etc/firmware/touch_iyokan_ttsp.hex
 
-#ANT+
-lib/libanthal.so
-etc/permissions/com.dsi.ant.antradio_library.xml
-etc/permissions/com.sonyericsson.suquashi.xml
+# ANT+
 app/antstatenotifer.apk
 app/AntHalService.apk
 app/antradioservice.apk
+etc/permissions/com.dsi.ant.antradio_library.xml
+etc/permissions/com.sonyericsson.suquashi.xml
 framework/com.dsi.ant.antradio_library.jar
 framework/com.sonyericsson.suquashi.jar
+lib/libanthal.so
