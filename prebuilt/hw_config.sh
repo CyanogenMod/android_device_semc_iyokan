@@ -49,13 +49,6 @@ echo $val_filter > $dev/filter  # RFilter. Valid range is 0 - 3.
 
 # LMU AS3676 Configuration
 dev=/sys/devices/i2c-0/0-0040/leds
-echo 1,70,255,52,24,5,80 > $dev/lcd-backlight/als/curve  # ALS curve for group1
-echo 2,127,1,130,130,2,2 > $dev/button-backlight/als/curve  # ALS curve for group2
-echo 2,127,1,130,130,2,2 > $dev/keyboard-backlight/als/curve  # ALS curve for group2
-echo 1,1,1,0 > $dev/lcd-backlight/als/params  #[gain],[filter_up],[filter_down],[offset]
-echo 1 > $dev/lcd-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
-echo 1 > $dev/button-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
-echo 1 > $dev/keyboard-backlight/als/enable  #Sensor on/off. 1 = on, reg 90h
 echo 4000 > $dev/button-backlight/max_current
 echo 38000 > $dev/keyboard-backlight/max_current
 echo 10000 >$dev/tally-light/max_current
